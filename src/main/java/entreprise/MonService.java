@@ -7,6 +7,6 @@ import javax.jws.WebService;
 public interface MonService {
 	
 	@WebMethod
-	public int methode();
+	public int maMethode(float f, char c);
 
 }
